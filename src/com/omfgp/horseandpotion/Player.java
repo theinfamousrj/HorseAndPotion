@@ -1,5 +1,6 @@
 package com.omfgp.horseandpotion;
 
-public class Player {
+public class Player 
+{
 
 }

@@ -6,13 +6,9 @@ public class Monster
 	String mName, mClass;
 	int mLevel, mHealth;
 	
-	public Monster()
-	{
-		
-	}
+	public Monster() { }
 	
-	public Monster(String name)
-	{
+	public Monster(String name) {
 		this.mName = name;
 	}
 	

@@ -3,8 +3,8 @@ package com.omfgp.horseandpotion;
 public class Monster 
 {
 	
-	String monsterName, monsterClass;
-	int monsterLevel, monsterHealth;
+	String mName, mClass;
+	int mLevel, mHealth;
 	
 	public Monster()
 	{
@@ -13,7 +13,7 @@ public class Monster
 	
 	public Monster(String name)
 	{
-		
+		this.mName = name;
 	}
 	
 }

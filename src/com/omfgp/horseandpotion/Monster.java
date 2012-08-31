@@ -1,6 +1,6 @@
 package com.omfgp.horseandpotion;
 
-public class Monster 
+public class Monster extends Entity
 {
 	
 	private String mName, mClass;

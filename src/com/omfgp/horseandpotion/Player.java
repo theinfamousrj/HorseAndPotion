@@ -1,11 +1,8 @@
 package com.omfgp.horseandpotion;
 
-//mage thief warrior
-//monk(t+w) paladin(m+w) alchemist(m+t)
-
-public class Player 
-{
-	private String pName, pID;
+public class Player extends Entity {
+	
+	private String pName;
 	private int pLevel, pHealth;
 	private PlayerClass pClass;
 	
@@ -15,34 +12,26 @@ public class Player
 		this.pName = name;
 	}
 	
-	//Getters and setters
+	//Setters and getters:
 	
-	public void setName(String name) {
-		this.pName = name;
+	public void setName(String newName) {
+		this.pName = newName;
 	}
 	
 	public String getName() {
 		return this.pName;
 	}
 	
-	public void setID(String id) {
-		this.pID = id;
-	}
-	
-	public String getID() {
-		return this.pID;
-	}
-	
-	public void setLevel(int level) {
-		this.pLevel = level;
+	public void setLevel(int newLevel) {
+		this.pLevel = newLevel;
 	}
 	
 	public int getLevel() {
 		return this.pLevel;
 	}
 	
-	public void setHealth(int health) {
-		this.pHealth = health;
+	public void setHealth(int newHealth) {
+		this.pHealth = newHealth;
 	}
 	
 	public int getHealth() {

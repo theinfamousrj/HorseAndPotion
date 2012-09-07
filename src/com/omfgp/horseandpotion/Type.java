@@ -1,6 +1,8 @@
 package com.omfgp.horseandpotion;
 
+//sword, dagger, staff, wand, shield
+
 public enum Type 
 {
-	BRICK, BLOCK, PLAYER, MONSTER
+	 PLAYER, MONSTER
 }

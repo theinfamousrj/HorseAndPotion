@@ -14,6 +14,13 @@ public class Location
 	
 	//Getters and setters:
 	
+	public void setXYZ(int x, int y, int z)
+	{
+		this.setX(x);
+		this.setY(y);
+		this.setZ(z);
+	}
+	
 	public int getX() 
 	{
 		return this.xLoc;

@@ -7,7 +7,6 @@ public class Entity
 
 	private String eID;
 	private Type eType;
-	private Vector eVelocity;
 	private Location eLocation;
 	
 	public Entity() 
@@ -37,9 +36,14 @@ public class Entity
 		return this.eType;
 	}
 	
-	public void setVelocity(int newVX, int newVY) 
+	public void setLocation(int x, int y, int z)
 	{
-		this.eVelocity = new Vector(newVX, newVY);
+		this.eLocation.setXYZ(x, y, z);
+	}
+	
+	public Location getLocation()
+	{
+		return this.eLocation;
 	}
 	
 }

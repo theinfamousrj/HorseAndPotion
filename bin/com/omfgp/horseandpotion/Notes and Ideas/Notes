@@ -1,16 +1,19 @@
 Basic Classes:
-Mage		   (M)
-Thief	   	   (T)
-Warrior	       (W)
+Mage		   	  (M)
+Thief	   	   	  (T)
+Warrior	       	  (W)
 
 Advanced Classes:
-Monk		  (T+W)
-Paladin	      (M+W)
-Alchemist	  (M+T)
+Monk		  	  (T+W)
+Paladin	      	  (M+W)
+Alchemist	  	  (M+T)
 
 Stats:
-Strength	->	Health
-Dexterity	->	Speed
-Intelligence->	Mana
-Luck		->  Crit/Dodge
+Strength		 ->	 Health
+Dexterity		 ->	 Speed
+Intelligence	 ->	 Mana
+Luck			 ->  Crit/Dodge
 
+NOTES:
+CLASS: Items- entity? item class? will they be level 0 with set stats?
+CLASS: Type- ???

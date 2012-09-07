@@ -1,10 +1,12 @@
 package com.omfgp.horseandpotion;
 
-public class Location {
+public class Location 
+{
 
 	private int xLoc, yLoc, zLoc;
 	
-	public Location(int x, int y, int z) {
+	public Location(int x, int y, int z) 
+	{
 		this.xLoc = x;
 		this.yLoc = y;
 		this.zLoc = z;
@@ -12,26 +14,32 @@ public class Location {
 	
 	//Getters and setters:
 	
-	public int getX() {
+	public int getX() 
+	{
 		return this.xLoc;
 	}
 	
-	public void setX(int x) {
+	public void setX(int x)
+	{
 		this.xLoc = x;
 	}
 	
-	public int getY() {
+	public int getY() 
+	{
 		return this.yLoc;
 	}
 	
-	public void setY(int y) {
+	public void setY(int y) 
+	{
 		this.yLoc = y;
 	}
-	public int getZ() {
+	public int getZ() 
+	{
 		return this.zLoc;
 	}
 	
-	public void setZ(int z) {
+	public void setZ(int z) 
+	{
 		this.zLoc = z;
 	}
 }

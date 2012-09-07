@@ -1,0 +1,16 @@
+Basic Classes:
+Mage		   (M)
+Thief	   	   (T)
+Warrior	       (W)
+
+Advanced Classes:
+Monk		  (T+W)
+Paladin	      (M+W)
+Alchemist	  (M+T)
+
+Stats:
+Strength	->	Health
+Dexterity	->	Speed
+Intelligence->	Mana
+Luck		->  Crit/Dodge
+
